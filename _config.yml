@@ -1,0 +1,21 @@
+# Site settings
+title: A Day in the Life of a Learner
+header-img: img/home-bg.png
+email: s3nbonzakura78@gmail.com
+copyright_name: bya1305
+description: > # this means to ignore newlines until "baseurl:"
+  An Unexpected Journey
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  bya1305
+learn_profile: bya1305
+email_username: s3nbonzakura78@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
